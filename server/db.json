@@ -1,0 +1,13 @@
+{
+    "posts": [{
+            "id": "1",
+            "content": "Dolor mollit irure exercitation nulla proident consequat laboris voluptate aliqua pariatur Lorem elit enim.",
+            "author": "Pesho"
+        },
+        {
+            "id": "2",
+            "content": "Dolor mollit irure exercitation nulla proident consequat laboris voluptate aliqua pariatur Lorem elit enim.",
+            "author": "Stamat"
+        }
+    ]
+}
