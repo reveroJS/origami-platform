@@ -7,8 +7,9 @@ import api from "./api";
    .catch(error => console.log(error));
 }
 
-export default {
+const postServices = {
    getAll,
-   
 }
+
+export default postServices
 

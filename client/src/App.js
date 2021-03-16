@@ -7,6 +7,7 @@ import style from "./App.module.css";
 import Header from "./components/Header/";
 import Menu from "./components/Menu";
 import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 // function App() {
 //     return (
@@ -36,12 +37,12 @@ class App extends Component {
     componentDidMount() {
         postServices.getAll()
             .then(posts => {
-               
+
                 this.setState({ posts })
             })
     }
 
-     
+
     render() {
 
         return (
@@ -51,7 +52,7 @@ class App extends Component {
                     <Menu />
                     <Main posts={this.state.posts} />
                 </div>
-
+                <Footer />
             </div>
         );
     }

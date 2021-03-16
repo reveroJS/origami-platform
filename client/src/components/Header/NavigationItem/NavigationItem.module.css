@@ -15,7 +15,7 @@
 }
 
 .listItem:not(:first-child) {
-    padding: 1%;
+    padding: 1.4%;
     margin-top: 1.5%;
     border-top: 2px solid #ffa000;
 }

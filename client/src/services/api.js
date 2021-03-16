@@ -1,6 +1,8 @@
 const baseUrl = "http://localhost:3001"
 
-
-export default {
+const api = {
     posts: `${baseUrl}/posts`,
 }
+
+
+export default api 

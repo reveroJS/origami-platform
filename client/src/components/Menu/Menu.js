@@ -16,7 +16,9 @@ const Menu = () => {
             <MenuItem>Going to 10</MenuItem>
             <MenuItem>Going to 11</MenuItem>
         </aside>
+    
     );
 }
 
 export default Menu;
+
